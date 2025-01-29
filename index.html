@@ -9,6 +9,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css"/>
+    <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
@@ -21,20 +24,37 @@
         <img src="images/logo_light 1.png" alt="Logo image" />
       </div>
       <section class="nav-bars">
-        <a class="#home">Home</a>
-        <a class="#property"
-          >Property <span class="fa-solid fa-angle-down"></span>
-        </a>
-        <a class="#ours services">Our services</a>
-        <a class="about us"
-          >About us <span class="fa-solid fa-angle-down"></span
-        ></a>
+         <nav>
+          <ul class="nav-lists">
+            <li class="nav-list">
+              <a href="#home">Home
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+            </li>
+            <li class="nav-list">
+              <a href="#Property">Property
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+            </li>
+            <li class="nav-list">
+              <a href="#Our Services">Our Services
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+            </li>
+            <li class="nav-list">
+              <a href="#About Us">About Us
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+            </li>
+          </ul>
+         </nav>
         <button class="header-btn">Request a call back</button>
+        <span class="fa-solid fa-bars"></span>
       </section>
     </section>
     <!-- Header Section end -->
     <!-- Hero Section Start -->
-    <section class="hero-container container">
+    <section class="hero-container container" id="home">
       <section class="left-content">
         <h2 class="title">INVEST WITH US</h2>
         <p class="desc-1">
@@ -57,7 +77,7 @@
     <!-- Hero Section End-->
 
     <!-- Hero section 2 Start -->
-    <section class="hero-section-2-container container">
+    <section class="hero-section-2-container container" id="About us">
       <img class="rectangle" src="images/Rectangle 21.png" alt="rectangle" />
       <section class="left-contents">
         <h2 class="hero-title">We are Bounteous Investments Nigeria Limited</h2>
@@ -73,7 +93,7 @@
     </section>
     <!-- Hero section 2 End -->
     <!-- Product styles start -->
-    <section class="product-container container">
+    <section class="product-container container" id="Our Services">
       <section class="top-content">
         <img
           src="images/Rectangle 21.png"
@@ -111,7 +131,9 @@
             </div>
           </div>
           <div class="carde">
-            <div class="carde-title">BUILD AND SELL AFFORDABLE HOMES</div>
+            <div class="carde-title">BUILD AND SELL
+              <br>
+              AFFORDABLE HOMES</div>
             <div class="carde-desc-3">
               Check here
               <span class="fa-solid fa-arrow-right">
@@ -141,7 +163,7 @@
     </section>
     <!-- Product styles End -->
     <!-- Card layout -->
-    <section class="top-content container">
+    <section class="top-content container" id="Property">
       <img
         src="images/Rectangle 21.png"
         alt="rectangle 2"
@@ -254,6 +276,7 @@
          </div>
       </section>
     </section>
+  </section>''
     <!-- Card layout -->
     <!-- Contact Section -->
     <section class="contact-container container">
